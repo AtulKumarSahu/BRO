@@ -43,6 +43,7 @@ public class HomeActivity extends AppCompatActivity {
              return false;
          });
     }
+    // replace fragment
 
     private void replaceFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_open,R.anim.anim_out)

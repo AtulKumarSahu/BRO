@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "281401265913",
+    "firebase_url": "https://book-share-3f7c7-default-rtdb.firebaseio.com",
+    "project_id": "book-share-3f7c7",
+    "storage_bucket": "book-share-3f7c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281401265913:android:ba505ebdfca3555918dc28",
+        "android_client_info": {
+          "package_name": "com.atulkumar.bro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAffxtEZGMPr7dphADhxNl0iw86GAXWVX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281401265913:android:a107dda00e6d8aad18dc28",
+        "android_client_info": {
+          "package_name": "com.example.bro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAffxtEZGMPr7dphADhxNl0iw86GAXWVX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

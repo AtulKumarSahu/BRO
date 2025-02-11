@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="5dp"
+    tools:context=".fragment.BookDetailsFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+    <ImageButton
+        android:id="@+id/dlsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/back"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/menu"/>
+</RelativeLayout>
+    <ImageView
+        android:id="@+id/image_dls"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/lite_color"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detalis"
+        android:text="@string/details"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/app_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingVertical="5dp"
+        tools:ignore="UselessLeaf">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/name_dls"
+            android:layout_gravity="start"
+            android:text="@string/book_name"
+            android:layout_marginStart="5dp"
+            tools:ignore="InefficientWeight" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:id="@+id/publication_dls"
+            android:layout_marginStart="5dp"
+            android:text="@string/publication"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginStart="5dp"
+        android:paddingVertical="5dp"
+        android:id="@+id/year_Semester_dls"
+        android:text="@string/semester_year"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:text="@string/description"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/app_color"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_gravity="start"
+        android:id="@+id/description_details"
+        android:text="@string/description"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal|bottom">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            android:id="@+id/btnchat"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/app_color"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

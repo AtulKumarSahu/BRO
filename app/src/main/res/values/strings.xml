@@ -1,0 +1,77 @@
+<resources>
+    m
+    <string name="Email"> Email</string>
+
+    <string name="app_name">BRO</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="mobile"> Mobile Number</string>
+    <string name="forgot_pass"> forgot password</string>
+    <string name="re_pass">Re-password</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="chat" translatable="false">Chat</string>
+    <string name="profile" translatable="false">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="searh_here" translatable="false">searh here</string>
+    <string name="find_books_n_according_to_our_choice" translatable="false">Find books\n according to Our Choice</string>
+    <string name="todo" translatable="false">Todo</string>
+    <string name="jack" translatable="false">Jack</string>
+    <string name="search_here">search here</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_publication">book publication</string>
+    <string name="publication">Publication</string>
+    <string name="semester_year">Semester/Year</string>
+    <string name="description">Description...</string>
+    <string name="add_book_details">Add book details</string>
+    <string name="save_data">Save Data</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="update">Update </string>
+    <string name="logout">Logout</string>
+    <string name="our_books">Our books</string>
+    <string name="sell_share">Sell or Share</string>
+    <string name="send_otp">Send otp</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="verify_and_login">Verify and login</string>
+    <string name="resend_otp_in_60">Resend otp in : 30</string>
+    <string name="resend_otp">Resend Otp</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout</string>
+    <string name="details">Details</string>
+    <string name="message">Message</string>
+    <string name="username">username</string>
+    <string name="time">time</string>
+
+    <array name="semester_year">
+        <item>Select</item>
+        <item>Year</item>
+        <item>Semester</item>
+
+    </array>
+
+
+    <array name="semester">
+
+        <item>1st semester</item>
+        <item>2nd semester</item>
+        <item>3rd semester</item>
+        <item>4th semester</item>
+        <item>5th semester</item>
+        <item>6th semester</item>
+    </array>
+    <array name="year">
+
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    class="androidx.appcompat.app.AlertController$RecycleListView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    android:id="@+id/cardView"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/lite_color"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="2">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:cardElevation="2dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:fitsSystemWindows="true"
+            app:cardCornerRadius="5dp"
+            tools:ignore="InefficientWeight">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/book_image"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_name"
+        android:id="@+id/book_name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:id="@+id/book_publication"
+            android:text="@string/book_publication"
+            android:paddingHorizontal="3dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

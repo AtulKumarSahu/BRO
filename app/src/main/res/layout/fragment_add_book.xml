@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+
+    android:layout_marginTop="120dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_book_details"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/book"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/book_name_edit_text"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_name"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/input_bg"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/publication_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/publication"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/input_bg"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/first_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:visibility="gone"
+            android:text="Please select a valid option" />
+
+        <Spinner
+            android:id="@+id/second_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginStart="10dp"
+            />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/description_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:maxLines="3"
+        android:layout_marginVertical="10dp"
+        android:maxLength="100"
+        android:padding="10dp"
+        android:background="@drawable/input_bg"
+        android:inputType="textMultiLine"
+        tools:ignore="Autofill" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/input_bg"
+        tools:ignore="ContentDescription"
+        android:scaleType="fitCenter"
+
+        android:id="@+id/bookimage"
+        android:padding="5dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/uploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/app_color"
+            android:text="@string/upload_image"/>
+
+        <Button
+            android:id="@+id/saveData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_data"
+            android:backgroundTint="@color/app_color"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

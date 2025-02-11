@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:id="@+id/recived_layout"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+        <TextView
+        android:id="@+id/recived_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_received"
+        android:padding="10dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/recived_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:id="@+id/send_layout"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/send_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_sent"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/send_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+
+
+</LinearLayout>

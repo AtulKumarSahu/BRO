@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_container"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bottom"
+            app:itemTextColor="@drawable/bottom_item_colour"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            app:itemIconSize="20dp"
+            android:background="?android:attr/windowBackground"
+            app:itemPaddingTop="3dp"
+            app:itemPaddingBottom="3dp"
+            android:layout_gravity="start"
+            android:layout_alignParentBottom="true"
+            app:itemIconTint="@drawable/bottom_item_colour"
+            app:menu="@menu/bottom_nav" />
+    </RelativeLayout>
+
+
+</LinearLayout>
